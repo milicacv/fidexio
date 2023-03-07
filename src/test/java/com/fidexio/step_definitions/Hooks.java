@@ -7,6 +7,7 @@ import com.fidexio.utilities.BrowserUtils;
 import com.fidexio.utilities.ConfigurationReader;
 import com.fidexio.utilities.Driver;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
@@ -37,7 +38,7 @@ public class Hooks {
     /*
     @After will be executed automatically after EVERY scenario in the project.
      */
-    @After
+   // @After
     public void teardownMethod(Scenario scenario){
 
         if (scenario.isFailed()) {
