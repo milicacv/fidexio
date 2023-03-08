@@ -16,3 +16,4 @@ Feature: Access the documentation page
     When user should click on the name
     And user should click the "Documentation"
     Then user should see 4 main document topics are listed on the new window
+
