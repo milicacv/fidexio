@@ -21,8 +21,8 @@ public class B28G25_66_Page {
     @FindBy(xpath = "//h1[text()='Odoo Documentation']")
     public WebElement HeaderOdooDoc;
 
-  //  @FindBy(xpath = "//div[@class='col-lg-6']//h2//a[@href='applications.html'][normalize-space()='User Docs']")
-  //  public WebElement UserDocs;
+  // @FindBy(xpath = "//div[@class='col-lg-6']//h2//a[@href='applications.html'][normalize-space()='User Docs']")
+ // public WebElement UserDocs;
 
    // @FindBy(xpath ="//h2[@class='border-top pt-4 pt-lg-0']//a[@href='administration.html'][normalize-space()='Install and Maintain']")
    // public WebElement InstallAndMaintain;

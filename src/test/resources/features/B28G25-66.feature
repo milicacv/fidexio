@@ -5,7 +5,7 @@ Feature: Access the documentation page
     Given the user is on the login page
     When user enters valid credentials and clicks on login button
 
-  @wip
+  #@wip
   Scenario: “Odoo Documentation” message is displayed on a new window
     When user should click on the name
     And user should click the "Documentation"
