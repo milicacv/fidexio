@@ -61,7 +61,8 @@ public class B28G25_66_StepDefinitions {
             System.out.println("Pass");
         }
 
-       //Assert.assertTrue(b28G25_66_page.UserDocs.isEnabled());
+
     }
 
 }
+
