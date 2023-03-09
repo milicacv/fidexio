@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
         glue = "com/fidexio/step_definitions",
         dryRun = false,
         tags = "@wip",
+
         publish = true //generating a report with public link
 )
 public class CukesRunner {}
