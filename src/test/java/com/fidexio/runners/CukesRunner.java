@@ -13,10 +13,12 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",
+         B28G25-67_Asma
         dryRun = true,
         tags = "@US67.Asma",
-        publish = true //generating a report with public link
-)
+
+      publish = true //generating a report with public link
+        )
 public class CukesRunner {}
 
 
